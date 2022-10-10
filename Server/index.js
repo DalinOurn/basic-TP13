@@ -10,7 +10,7 @@ app.use(cookieParser());
 
 //allow api to access any port
 app.use(cors({
-    origin: 'http://18.183.86.24:3000',
+    origin: 'http://18.183.86.24:80',
     credentials: true,
 }))
 
