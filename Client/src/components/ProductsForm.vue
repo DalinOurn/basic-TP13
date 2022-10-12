@@ -85,7 +85,7 @@ export default {
       body: JSON.stringify({}),
     };
     const response = await fetch(
-      "http://18.183.86.24:3001/category/item",
+      "http://3.112.21.70:3001/category/item",
       requestOptions
     );
     const data = await response.json();
@@ -111,7 +111,7 @@ export default {
         }),
       };
       const responseItem = await fetch(
-        "http://18.183.86.24:3001/product/each-item",
+        "http://3.112.21.70:3001/product/each-item",
         requestItems
       );
       const dataItem = await responseItem.json();
