@@ -94,7 +94,7 @@ export default {
       }),
     };
     const response = await fetch(
-      "http://54.95.13.155:3001/auth/register",
+      "http://13.231.31.124:3001/auth/register",
       requestOptions
     );
     const data = await response.json();
@@ -118,7 +118,7 @@ export default {
         }),
       };
       const response = await fetch(
-        "http://54.95.13.155:3001/auth/register",
+        "http://13.231.31.124:3001/auth/register",
         requestOptions
       );
       const data = await response.json();

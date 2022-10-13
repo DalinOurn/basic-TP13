@@ -27,5 +27,5 @@ app.use(router);
 require('./configs/db')();
 
 app.listen(3001, () => {
-    console.log("The server: http://54.95.13.155:3001");
+    console.log("The server: http://13.231.31.124:3001");
 })

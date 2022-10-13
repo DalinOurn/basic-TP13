@@ -64,7 +64,7 @@ export default {
       }),
     };
     const response = await fetch(
-      "http://54.95.13.155:3001/auth/login",
+      "http://13.231.31.124:3001/auth/login",
       requestOptions
     );
     const data = await response.json();
@@ -87,7 +87,7 @@ export default {
 
       //post data to api
       const response = await fetch(
-        "http://54.95.13.155:3001/auth/login",
+        "http://13.231.31.124:3001/auth/login",
         requestOptions
       );
 
