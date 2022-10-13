@@ -386,11 +386,11 @@ export default {
       headers: { "Content-Type": "application/json" },
     };
     const response = await fetch(
-      "http://13.231.31.124:3001/category/all",
+      "http://35.78.67.216:3001/category/all",
       requestOptions
     );
     // const product = await fetch(
-    //   "http://13.231.31.124:3001/product/id/6247762f802a20af6b94a71e",
+    //   "http://35.78.67.216:3001/product/id/6247762f802a20af6b94a71e",
     //   requestOptions
     // );
     const data = await response.json();
@@ -443,7 +443,7 @@ export default {
         }),
       };
       const response = await fetch(
-        `http://13.231.31.124:3001/price/update`,
+        `http://35.78.67.216:3001/price/update`,
         requestOptions
       );
       await response.json();
@@ -461,7 +461,7 @@ export default {
         }),
       };
       const response_1 = await fetch(
-        `http://13.231.31.124:3001/product/each-shop`,
+        `http://35.78.67.216:3001/product/each-shop`,
         requestOptions_1
       );
       const data = await response_1.json();
@@ -481,7 +481,7 @@ export default {
         }),
       };
       const response = await fetch(
-        `http://13.231.31.124:3001/product/each-shop`,
+        `http://35.78.67.216:3001/product/each-shop`,
         requestOptions
       );
       const data = await response.json();
@@ -492,13 +492,13 @@ export default {
         headers: { "Content-Type": "application/json" },
       };
       const item = await fetch(
-        `http://13.231.31.124:3001/item/id/${this.productData.data.item}`,
+        `http://35.78.67.216:3001/item/id/${this.productData.data.item}`,
         requestOptions1
       );
       this.productItem = await item.json();
 
       const category = await fetch(
-        `http://13.231.31.124:3001/category/id/${this.productItem.data.category}`,
+        `http://35.78.67.216:3001/category/id/${this.productItem.data.category}`,
         requestOptions1
       );
       this.productCategory = await category.json();
@@ -535,7 +535,7 @@ export default {
         }),
       };
       const response = await fetch(
-        "http://13.231.31.124:3001/price/create",
+        "http://35.78.67.216:3001/price/create",
         requestOptions
       );
       await response.json();
@@ -549,7 +549,7 @@ export default {
         }),
       };
       const response_1 = await fetch(
-        `http://13.231.31.124:3001/product/each-shop`,
+        `http://35.78.67.216:3001/product/each-shop`,
         requestOptions_1
       );
       const data = await response_1.json();
@@ -589,7 +589,7 @@ export default {
         headers: { "Content-Type": "application/json" },
       };
       const response = await fetch(
-        "http://13.231.31.124:3001/category/all",
+        "http://35.78.67.216:3001/category/all",
         requestOptions
       );
       const data = await response.json();
@@ -614,7 +614,7 @@ export default {
         headers: { "Content-Type": "application/json" },
       };
       const response = await fetch(
-        "http://13.231.31.124:3001/item/all",
+        "http://35.78.67.216:3001/item/all",
         requestOptions
       );
       const data = await response.json();
@@ -640,7 +640,7 @@ export default {
         headers: { "Content-Type": "application/json" },
       };
       const response = await fetch(
-        "http://13.231.31.124:3001/product/all",
+        "http://35.78.67.216:3001/product/all",
         requestOptions
       );
       const data = await response.json();
@@ -681,7 +681,7 @@ export default {
           }),
         };
         const response = await fetch(
-          "http://13.231.31.124:3001/category/add",
+          "http://35.78.67.216:3001/category/add",
           requestOptions
         );
         await response.json();
@@ -705,7 +705,7 @@ export default {
           }),
         };
         const response = await fetch(
-          "http://13.231.31.124:3001/item/add",
+          "http://35.78.67.216:3001/item/add",
           requestOptions
         );
         await response.json();
@@ -733,7 +733,7 @@ export default {
           credentials: "include",
         };
         const response = await fetch(
-          "http://13.231.31.124:3001/product/add",
+          "http://35.78.67.216:3001/product/add",
           requestOptions
         );
         await response.json();
@@ -759,7 +759,7 @@ export default {
           }),
         };
         const response = await fetch(
-          "http://13.231.31.124:3001/category/remove",
+          "http://35.78.67.216:3001/category/remove",
           requestOptions
         );
         await response.json();
@@ -775,7 +775,7 @@ export default {
           }),
         };
         const response = await fetch(
-          "http://13.231.31.124:3001/item/delete",
+          "http://35.78.67.216:3001/item/delete",
           requestOptions
         );
         await response.json();
@@ -791,7 +791,7 @@ export default {
           }),
         };
         const response = await fetch(
-          "http://13.231.31.124:3001/product/delete",
+          "http://35.78.67.216:3001/product/delete",
           requestOptions
         );
         await response.json();
@@ -811,7 +811,7 @@ export default {
         }),
       };
       const response = await fetch(
-        "http://13.231.31.124:3001/price/delete",
+        "http://35.78.67.216:3001/price/delete",
         requestOptions
       );
       await response.json();
@@ -825,7 +825,7 @@ export default {
         }),
       };
       const response_1 = await fetch(
-        `http://13.231.31.124:3001/product/each-shop`,
+        `http://35.78.67.216:3001/product/each-shop`,
         requestOptions_1
       );
       const data = await response_1.json();
