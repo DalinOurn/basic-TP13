@@ -64,7 +64,7 @@ export default {
       }),
     };
     const response = await fetch(
-      "http://35.78.67.216:3001/auth/login",
+      "http://54.250.16.7:3001/auth/login",
       requestOptions
     );
     const data = await response.json();
@@ -87,7 +87,7 @@ export default {
 
       //post data to api
       const response = await fetch(
-        "http://35.78.67.216:3001/auth/login",
+        "http://54.250.16.7:3001/auth/login",
         requestOptions
       );
 

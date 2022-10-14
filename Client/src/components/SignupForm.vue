@@ -94,7 +94,7 @@ export default {
       }),
     };
     const response = await fetch(
-      "http://35.78.67.216:3001/auth/register",
+      "http://54.250.16.7:3001/auth/register",
       requestOptions
     );
     const data = await response.json();
@@ -118,7 +118,7 @@ export default {
         }),
       };
       const response = await fetch(
-        "http://35.78.67.216:3001/auth/register",
+        "http://54.250.16.7:3001/auth/register",
         requestOptions
       );
       const data = await response.json();
